@@ -2,6 +2,7 @@
 
 This is modified from Brennon Schow's Amazon S3 image upload repo. 
 
+## FOR MORE COMPLETE INSTRUCTIONS ON SETTING UP AMAZON S3: [visit Brennon's repo!](https://github.com/brennongs/s3-react)
 The difference for pdf vs image ended up depending on the Buffer.
 
 In the image upload, the req.body.file  comes through having a line with "data:image/jpeg" or "data:image/png"; in the case of the PDF,it was "data:application/pdf". So, we changed the line from:
